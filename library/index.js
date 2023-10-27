@@ -9,5 +9,14 @@ export const hideFloatingBubble = () => RNFloatingBubble.hideFloatingBubble();
 export const checkPermission = () => RNFloatingBubble.checkPermission();
 export const requestPermission = () => RNFloatingBubble.requestPermission();
 export const initialize = () => RNFloatingBubble.initialize();
+export const isBubbleOpen = () => RNFloatingBubble.isBubbleOpen();
 
-export default { showFloatingBubble, hideFloatingBubble, requestPermission, checkPermission, initialize, reopenApp };
+export default {
+    showFloatingBubble,
+    hideFloatingBubble,
+    requestPermission,
+    checkPermission,
+    initialize,
+    reopenApp,
+    isBubbleOpen    
+  };
